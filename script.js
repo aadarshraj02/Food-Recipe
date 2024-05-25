@@ -19,10 +19,14 @@ const fetchRecipes = async (query) => {
         <p><span>${meal.strArea}</span> Dish</p>
         <p>Belongs to <span>${meal.strCategory}</span> Category</p>
     `;
-    const button = document.createElement("button")
-    button.innerHTML = "View Recipe"
-    recipeDiv.appendChild(button)
+    const button = document.createElement("button");
+    button.innerHTML = "View Recipe";
+    recipeDiv.appendChild(button);
     recipeContainer.appendChild(recipeDiv);
+
+    button.addEventListener("click", () => {
+      openRecipePopup(meal);
+    });
   });
 };
 
