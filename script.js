@@ -59,7 +59,9 @@ const openRecipePopup = (meal) => {
   recipeDetailsContent.parentElement.style.display = "block";
 };
 
-closeBtn.addEventListener("click", () => {});
+closeBtn.addEventListener("click", () => {
+  recipeDetailsContent.parentElement.style.display = "none";
+});
 
 searchBtn.addEventListener("click", (e) => {
   e.preventDefault();
