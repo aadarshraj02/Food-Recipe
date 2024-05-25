@@ -35,11 +35,17 @@ form input {
   flex-grow: 1;
   margin-right: 10px;
 }
-input,button{
+input,
+button {
   border: none;
   font-size: 18px;
   padding: 10px;
   border-radius: 4px;
+}
+button {
+  background-color: #2e1f27;
+  color: #e7e393;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
