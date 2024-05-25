@@ -20,3 +20,9 @@ header nav {
   align-items: center;
   z-index: 1;
 }
+h1 {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
