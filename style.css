@@ -75,9 +75,13 @@ button:hover {
   max-width: 350px;
 }
 
-.recipe img{
+.recipe img {
   height: 300px;
 }
+.recipe h3 {
+  font-size: 24px;
+}
+
 @media (max-width: 600px) {
   header nav {
     flex-direction: column;
