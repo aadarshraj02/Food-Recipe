@@ -52,7 +52,10 @@ button:hover {
   color: #fff;
   transition: background-color 0.2s ease-in;
 }
-
+.recipe-container {
+  text-align: center;
+  margin-top: 20px;
+}
 @media (max-width: 600px) {
   header nav {
     flex-direction: column;
