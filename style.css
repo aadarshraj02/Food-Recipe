@@ -42,7 +42,7 @@ button {
   padding: 10px;
   border-radius: 4px;
 }
-button {
+form button {
   background-color: #2e1f27;
   color: #e7e393;
   cursor: pointer;
@@ -89,6 +89,13 @@ button:hover {
 }
 .recipe span {
   font-weight: 600;
+}
+.recipe button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
