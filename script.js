@@ -66,5 +66,9 @@ closeBtn.addEventListener("click", () => {
 searchBtn.addEventListener("click", (e) => {
   e.preventDefault();
   const searchInput = searchBox.value.trim();
+  if (!searchInput) {
+    recipeContainer.innerHTML = "Type the Meal in Search Box";
+    return;
+  }
   fetchRecipes(searchInput);
 });
