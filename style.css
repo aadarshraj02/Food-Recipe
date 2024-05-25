@@ -96,6 +96,10 @@ button:hover {
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
+  margin: 10px auto;
+  background-color: #2e1f27;
+  color: #e7e393;
+  border: none;
 }
 
 @media (max-width: 600px) {
