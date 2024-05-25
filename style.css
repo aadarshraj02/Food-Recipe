@@ -27,3 +27,7 @@ h1 {
   letter-spacing: 1px;
   color: #f0f0f0;
 }
+header nav form {
+  display: flex;
+  justify-content: center;
+}
