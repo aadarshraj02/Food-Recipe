@@ -32,6 +32,10 @@ const fetchRecipes = async (query) => {
   });
 };
 
+const openRecipePopup = (meal) => {
+  recipeDetailsContent.innerHTML = ``;
+};
+
 searchBtn.addEventListener("click", (e) => {
   e.preventDefault();
   const searchInput = searchBox.value.trim();
