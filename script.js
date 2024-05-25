@@ -59,6 +59,8 @@ const openRecipePopup = (meal) => {
   recipeDetailsContent.parentElement.style.display = "block";
 };
 
+closeBtn.addEventListener("click", () => {});
+
 searchBtn.addEventListener("click", (e) => {
   e.preventDefault();
   const searchInput = searchBox.value.trim();
