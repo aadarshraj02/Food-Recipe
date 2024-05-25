@@ -125,8 +125,13 @@ button:hover {
   border-radius: 16px;
   --webkit-border-radius: 16px;
 }
-.recipe-details-content{
+.recipe-details-content {
   padding: 30px;
+}
+.recipeName {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 @media (max-width: 600px) {
