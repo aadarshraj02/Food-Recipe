@@ -102,6 +102,10 @@ button:hover {
   border: none;
 }
 
+.recipe-details {
+  display: none;
+}
+
 @media (max-width: 600px) {
   header nav {
     flex-direction: column;
