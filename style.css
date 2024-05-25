@@ -6,3 +6,8 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
+
+body {
+  background-color: #2e1f27;
+  color: #e7e393;
+}
