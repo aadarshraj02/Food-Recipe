@@ -1,6 +1,8 @@
 const searchBox = document.querySelector(".searchBox");
 const recipeContainer = document.querySelector(".recipe-container");
 const searchBtn = document.querySelector(".searchBtn");
+const recipeDetailsContent = document.querySelector(".recipe-details-content");
+const closeBtn = document.querySelector(".recipe-close-btn");
 
 const fetchRecipes = async (query) => {
   recipeContainer.innerHTML = "Fetching Recipes...";
