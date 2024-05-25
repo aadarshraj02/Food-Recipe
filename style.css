@@ -47,6 +47,11 @@ button {
   color: #e7e393;
   cursor: pointer;
 }
+button:hover {
+  background-color: #000;
+  color: #fff;
+  transition: background-color 0.2s ease-in;
+}
 
 @media (max-width: 600px) {
   header nav {
