@@ -20,7 +20,7 @@ header nav {
   align-items: center;
   z-index: 1;
 }
-h1 {
+header nav h1 {
   font-size: 26px;
   font-weight: 700;
   text-transform: uppercase;
@@ -34,4 +34,14 @@ header nav form {
 form input {
   flex-grow: 1;
   margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  header nav {
+    flex-direction: column;
+  }
+  header nav form {
+    width: 80%;
+    margin-top: 20px;
+  }
 }
