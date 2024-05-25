@@ -80,6 +80,7 @@ button:hover {
 }
 .recipe h3 {
   font-size: 24px;
+  margin-block: 5px;
 }
 .recipe p {
   font-size: 20px;
