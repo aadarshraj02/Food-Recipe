@@ -11,3 +11,12 @@ body {
   background-color: #2e1f27;
   color: #e7e393;
 }
+
+header nav {
+  background-color: #854d27;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
