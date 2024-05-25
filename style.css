@@ -31,3 +31,7 @@ header nav form {
   display: flex;
   justify-content: center;
 }
+form input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
