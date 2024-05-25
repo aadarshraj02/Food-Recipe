@@ -7,7 +7,11 @@ const fetchRecipes = async (query) => {
   const data = await fetch(url);
   const response = await data.json();
   //   console.log(response);
-  response.meals.forEach((meal) => {});
+  response.meals.forEach((meal) => {
+    const recipeDiv = document.createElement("div");
+    recipeDiv.classList.add("recipe");
+    recipeDiv.innerHTML = ``;
+  });
 };
 
 searchBtn.addEventListener("click", (e) => {
