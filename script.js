@@ -10,7 +10,13 @@ const fetchRecipes = async (query) => {
   response.meals.forEach((meal) => {
     const recipeDiv = document.createElement("div");
     recipeDiv.classList.add("recipe");
-    recipeDiv.innerHTML = ``;
+    recipeDiv.innerHTML = `
+        <img src = "${meal.strMealThumb}">
+        <h3>${meal.strMeal}</h3>
+        <p>${meal.strArea}</p>
+        <p>${meal.strCategory}</p>
+    `;
+    recipeContainer.appendChild(recipeDiv);
   });
 };
 
