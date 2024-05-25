@@ -18,8 +18,10 @@ const fetchRecipes = async (query) => {
         <h3>${meal.strMeal}</h3>
         <p><span>${meal.strArea}</span> Dish</p>
         <p>Belongs to <span>${meal.strCategory}</span> Category</p>
-
     `;
+    const button = document.createElement("button")
+    button.innerHTML = "View Recipe"
+    recipeDiv.appendChild(button)
     recipeContainer.appendChild(recipeDiv);
   });
 };
