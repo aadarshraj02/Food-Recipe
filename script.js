@@ -32,6 +32,20 @@ const fetchRecipes = async (query) => {
   });
 };
 
+const fetchIngredients = (meal) => {
+  let ingredientsList = "";
+  for (let i = 0; i <= 20; i++) {
+    const ingredient = meal[`strIngredient${i}`];
+    if (ingredient) {
+      const measure = meal[`strMeasure${i}`];
+      ingredientsList += `<li>${measure} ${ingredient}</li>`;
+    } else {
+      break;
+    }
+    return ingredientsList;
+  }
+};
+
 const openRecipePopup = (meal) => {
   recipeDetailsContent.innerHTML = `
   <h2>${meal.strMeal}</h2>
